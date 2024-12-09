@@ -7,36 +7,13 @@ function SocialIcon(props) {
         href={social.link}
         target="_blank"
       >
-        <i className={social.icon} />
-        {social.label}
+        <p>
+          <i className={social.icon} /> {social.label}
+        </p>
       </a>
     </div>
   ));
-  return (
-    <div>
-      {socials}
-      <a
-        href="http://www.linkedin.com/in/cameron-delay-5382888a"
-        target="_blank"
-      >
-        <img
-          src=""
-          className="logo"
-          alt="linkedin"
-        />
-      </a>
-      <a
-        href="https://github.com/camdelay16"
-        target="_blank"
-      >
-        <img
-          src=""
-          className="logo"
-          alt="github"
-        />
-      </a>
-    </div>
-  );
+  return <div>{socials}</div>;
 }
 
 export default SocialIcon;

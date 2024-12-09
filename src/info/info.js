@@ -28,16 +28,16 @@ export const info = {
     {
       link: "https://github.com/camdelay16",
       icon: "fa fa-github",
-      label: "github",
+      label: "GitHub",
     },
     {
       link: "http://www.linkedin.com/in/cameron-delay-5382888a",
       icon: "fa fa-linkedin",
-      label: "linkedin",
+      label: "LinkedIn",
     },
     {
       link: "mailto:connectcamdelay@gmail.com",
-      icon: "fa fa-gmail",
+      icon: "fa fa-envelope",
       label: "Connect",
     },
   ],
