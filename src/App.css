@@ -40,3 +40,42 @@
 .read-the-docs {
   color: #888;
 }
+
+.name-gradient {
+  background: linear-gradient(
+    to left,
+    #6d4ee9,
+    #3300ff,
+    #0074ff,
+    #009cfb,
+    #25f396
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.navbar {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 100px;
+  justify-content: space-evenly;
+  gap: 3rem;
+}
+
+.contactLinks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.individualLinks {
+  margin: 10px;
+}

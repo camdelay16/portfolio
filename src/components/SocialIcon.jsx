@@ -2,7 +2,10 @@ function SocialIcon(props) {
   const { info } = props;
 
   const socials = info.socials.map((social, index) => (
-    <div key={index}>
+    <div
+      key={index}
+      className="individualLinks"
+    >
       <a
         href={social.link}
         target="_blank"
@@ -13,7 +16,7 @@ function SocialIcon(props) {
       </a>
     </div>
   ));
-  return <div>{socials}</div>;
+  return <div className="contactLinks">{socials}</div>;
 }
 
 export default SocialIcon;
