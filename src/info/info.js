@@ -21,7 +21,7 @@ export const info = {
     },
     {
       emoji: "📧",
-      text: "johnsmith@gmail.com",
+      text: "camdelay16@gmail.com",
     },
   ],
   socials: [
@@ -41,7 +41,7 @@ export const info = {
       label: "Connect",
     },
   ],
-  bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+  bio: "Hello! I'm Cameron. I enjoy long walks on the beach with my two dogs, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
   skills: {
     proficientWith: [
       "javascript",
@@ -75,9 +75,10 @@ export const info = {
   ],
   portfolio: [
     {
-      title: "Project 1",
+      title: "Project 1 - BundleUp",
       live: "https://bundle-up.netlify.app/",
       source: "https://github.com/camdelay16/BundleUp_React",
+
       //   image: mock1,
     },
   ],

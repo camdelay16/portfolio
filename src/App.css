@@ -79,3 +79,33 @@ nav {
 .individualLinks {
   margin: 10px;
 }
+
+.projectLinks {
+  display: flex;
+  justify-content: space-evenly;
+  a {
+    margin: 10px;
+  }
+}
+
+.individualProjects {
+  background-color: #0074ff;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20px;
+  box-shadow: 5px 3px 3px #02397d;
+}
+
+.projects {
+  list-style-type: none;
+}
+
+.proficientWithContainer {
+  margin: 20px;
+}
+
+.proficientWith {
+  margin: 10px;
+  list-style-type: disc;
+  width: 200px;
+}
