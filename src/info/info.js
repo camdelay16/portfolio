@@ -8,8 +8,8 @@ export const info = {
   //   baseColor: colors[0],
   miniBio: [
     {
-      emoji: "☕",
-      text: "fueled by coffee",
+      emoji: "🐶",
+      text: "Dog Lover",
     },
     {
       emoji: "🌎",
@@ -17,7 +17,7 @@ export const info = {
     },
     {
       emoji: "💼",
-      text: "Systems Engineer at Google",
+      text: "Freelance",
     },
     {
       emoji: "📧",
@@ -51,7 +51,7 @@ export const info = {
       "bootstrap",
       "html5",
       "css3",
-      "figma",
+      "django",
     ],
     exposedTo: ["nodejs", "python", "adobe illustrator"],
   },
@@ -78,8 +78,15 @@ export const info = {
       title: "Project 1 - BundleUp",
       live: "https://bundle-up.netlify.app/",
       source: "https://github.com/camdelay16/BundleUp_React",
-
-      //   image: mock1,
+      about:
+        "A full stack e-commerce site built with React and Express. This was a former group project that I have since taken over and revised a lot of broken code.",
+    },
+    {
+      title: "Project 2 - Accomplish",
+      live: "https://accomplish-a23d7a73df7a.herokuapp.com/",
+      source: "https://github.com/camdelay16/Accomplish/tree/main",
+      about:
+        "A full stack to-do list app built with Django. This was a solo project that I built to help a user keep track of their tasks/subtasks and organize them through lists. This was my first time using Django and I learned a lot from it.",
     },
   ],
 };
