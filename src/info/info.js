@@ -41,7 +41,7 @@ export const info = {
       label: "Connect",
     },
   ],
-  bio: "Hello! I'm Cameron. I enjoy long walks on the beach with my two dogs, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+  bio: "Hello! I'm Cameron. I enjoy long walks on the beach with my two dogs. I'm a Full Stack Developer with a passion for creating clean, user-friendly applications. I have experience with React, Express, Django, and MongoDB. I'm always looking to learn new technologies and expand my skill set.",
   skills: {
     proficientWith: [
       "javascript",
@@ -52,8 +52,11 @@ export const info = {
       "html5",
       "css3",
       "django",
+      "express",
+      "nodejs",
+      "mongodb",
     ],
-    exposedTo: ["nodejs", "python", "adobe illustrator"],
+    exposedTo: ["python", "postgresql", "sql", "heroku"],
   },
   hobbies: [
     {

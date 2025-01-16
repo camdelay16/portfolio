@@ -7,6 +7,7 @@ import Portfolio from "./components/Portfolio";
 import { info } from "./info/info";
 
 import "./App.css";
+import "./Star.css";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -14,6 +15,9 @@ function App() {
   return (
     <>
       <Navbar />
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
       <Routes>
         <Route
           path="/"

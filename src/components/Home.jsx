@@ -3,7 +3,13 @@ import SocialIcon from "./SocialIcon";
 const Home = (props) => {
   const { info } = props;
   return (
-    <div>
+    <div className="homeInfoContainer">
+      <div className="profileImg">
+        <img
+          src=""
+          alt="Cameron Delay"
+        />
+      </div>
       <h1>
         Welcome! I'm <span className="name-gradient">Cameron</span>
       </h1>

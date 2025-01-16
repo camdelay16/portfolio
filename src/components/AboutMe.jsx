@@ -11,12 +11,16 @@ const AboutMe = (props) => {
   ));
 
   return (
-    <div>
-      <h1>About Me</h1>
-      <p>{info.bio}</p>
+    <div className="infoContainer">
+      <div className="pageTitleContainer">
+        <h1 className="pageTitle">About Me</h1>
+      </div>
+      <div className="bioContainer">
+        <p>{info.bio}</p>
+      </div>
       <div className="proficientWithContainer">
         <h2>Proficient With:</h2>
-        <ul>{proficientWith}</ul>
+        <ul className="proficientWithList">{proficientWith}</ul>
       </div>
     </div>
   );

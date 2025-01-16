@@ -13,27 +13,31 @@ const Portfolio = (props) => {
             <small>{project.about}</small>
           </p>
         </div>
-        <div className="projectLinks">
-          <a
-            href={project.source}
-            target="_blank"
-          >
-            <button>GitHub</button>
-          </a>
-          <a
-            href={project.live}
-            target="_blank"
-          >
-            <button>Live</button>
-          </a>
+        <div className="projectLinksContainer">
+          <div className="projectLinks">
+            <a
+              href={project.source}
+              target="_blank"
+            >
+              <button className="projectButtons">GitHub</button>
+            </a>
+            <a
+              href={project.live}
+              target="_blank"
+            >
+              <button className="projectButtons">Live</button>
+            </a>
+          </div>
         </div>
       </div>
     </li>
   ));
 
   return (
-    <div>
-      <h1>Portfolio</h1>
+    <div className="infoContainer">
+      <div className="pageTitleContainer">
+        <h1 className="pageTitle">Portfolio</h1>
+      </div>
       <div className="projectsContainer">
         <ul className="projects">{projects}</ul>
       </div>

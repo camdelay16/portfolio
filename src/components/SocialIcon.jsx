@@ -10,7 +10,7 @@ function SocialIcon(props) {
         href={social.link}
         target="_blank"
       >
-        <p>
+        <p className="individualLinksText">
           <i className={social.icon} /> {social.label}
         </p>
       </a>
