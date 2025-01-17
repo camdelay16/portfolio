@@ -26,7 +26,7 @@ nav {
   right: 0;
   margin: 0 auto;
   z-index: 1000;
-  background-color: #3300ff;
+  background: linear-gradient(to bottom, #002bff, #143bff, #2043f1, #2243e8);
   height: 60px;
   a {
     color: #00fbb8;
@@ -39,7 +39,7 @@ nav {
   }
 }
 
-.navbar {
+.navbar .navCard {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   height: 100px;
@@ -344,10 +344,10 @@ nav {
   height: 100vh;
 }
 
-.profileImg {
+.profileImgContainer {
   border-radius: 50%;
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   margin: 20px;
   background: radial-gradient(
     circle,
@@ -357,6 +357,18 @@ nav {
     #3300ff 75%,
     #6d4ee9 100%
   );
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.profileImg {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  border-width: none;
+  justify-self: center;
+  align-self: center;
 }
 
 @media (max-width: 768px) {
@@ -370,11 +382,16 @@ nav {
 
   .hamburger-menu {
     display: block;
-    position: absolute;
     top: 15px;
     right: 20px;
     cursor: pointer;
     z-index: 1001;
+  }
+
+  .navHamburgerContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
   }
 
   .hamburger-menu div {
@@ -383,6 +400,10 @@ nav {
     background-color: #00fbb8;
     margin: 5px 0;
     transition: 0.4s;
+  }
+
+  .hamburger-menu.active {
+    position: fixed;
   }
 
   .hamburger-menu.active .bar1 {
@@ -402,12 +423,26 @@ nav {
     flex-direction: column;
     position: absolute;
     width: 100%;
-    background-color: #3300ff;
     z-index: 1000;
   }
 
+  .navbar .navCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 50vh;
+    background: linear-gradient(to bottom, #002bff, #143bff, #2043f1, #2243e8);
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    gap: 5px;
+    position: sticky;
+  }
+
   .navbar a {
-    padding: 1rem;
+    padding: 0.05rem;
     text-decoration: none;
     color: #00fbb8;
   }
@@ -434,6 +469,11 @@ nav {
 
   .proficientWithList {
     grid-template-columns: 1fr;
+  }
+
+  .profileImgContainer {
+    width: 200px;
+    height: 200px;
   }
 
   .profileImg {

@@ -4,10 +4,11 @@ const Home = (props) => {
   const { info } = props;
   return (
     <div className="homeInfoContainer">
-      <div className="profileImg">
+      <div className="profileImgContainer">
         <img
-          src=""
+          src="src/assets/profilepic.svg"
           alt="Cameron Delay"
+          className="profileImg"
         />
       </div>
       <h1>
