@@ -6,7 +6,31 @@ const AboutMe = (props) => {
       key={index}
       className="proficientWith"
     >
-      <li>{skill}</li>
+      <li>
+        <i className={skill.icon} /> {skill.label}
+      </li>
+    </div>
+  ));
+
+  const exposedTo = info.skills.exposedTo.map((skill, index) => (
+    <div
+      key={index}
+      className="exposedTo"
+    >
+      <li>
+        <i className={skill.icon} /> {skill.label}
+      </li>
+    </div>
+  ));
+
+  const hobbies = info.hobbies.map((hobby, index) => (
+    <div
+      key={index}
+      className="hobbies"
+    >
+      <li>
+        {hobby.emoji}&nbsp;{hobby.label}
+      </li>
     </div>
   ));
 
@@ -18,9 +42,19 @@ const AboutMe = (props) => {
       <div className="bioContainer">
         <p>{info.bio}</p>
       </div>
-      <div className="proficientWithContainer">
-        <h2>Proficient With:</h2>
-        <ul className="proficientWithList">{proficientWith}</ul>
+      <div className="aboutMeInfoContainer">
+        <div className="proficientWithContainer">
+          <h2>Proficient With:</h2>
+          <ul className="proficientWithList">{proficientWith}</ul>
+        </div>
+        <div className="exposedToContainer">
+          <h2>Exposed To:</h2>
+          <ul className="exposedToList">{exposedTo}</ul>
+        </div>
+        <div className="hobbiesContainer">
+          <h2>Hobbies:</h2>
+          <ul className="hobbiesList">{hobbies}</ul>
+        </div>
       </div>
     </div>
   );

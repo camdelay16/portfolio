@@ -228,13 +228,35 @@ nav {
   margin: 30px;
 }
 
+.aboutMeInfoContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-content: center;
+}
+
 .proficientWithContainer {
+  grid-row: 1 / 3;
+  height: 50vh;
+}
+
+.exposedToContainer {
+  grid-row: 1/2;
+}
+.hobbiesContainer {
+  grid-row: 2/3;
+}
+
+.proficientWithContainer,
+.exposedToContainer,
+.hobbiesContainer {
   background: #0074ff08;
   padding: 20px;
   margin: 10px;
   border-radius: 20px;
-  width: 300px;
-  height: 300px;
+  width: 45vh;
+
   box-shadow: 5px 3px 3px rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -243,9 +265,12 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  justify-self: center;
 }
 
-.proficientWithContainer:hover {
+.proficientWithContainer:hover,
+.exposedToContainer:hover,
+.hobbiesContainer:hover {
   transform: scale(1.1);
   box-shadow: 0 0 10px 5px rgba(0, 116, 255, 0.5);
   animation: glowing-border 5s linear infinite,
@@ -253,7 +278,9 @@ nav {
   overflow: hidden;
 }
 
-.proficientWith {
+.proficientWith,
+.exposedTo,
+.hobbies {
   margin: 5px;
   list-style-type: none;
   display: flex;
@@ -266,7 +293,9 @@ nav {
   transition: transform 0.3s ease-in-out;
 }
 
-.proficientWith:hover {
+.proficientWith:hover,
+.exposedTo:hover,
+.hobbies:hover {
   transform: scale(1.1);
   background: linear-gradient(
     to left,
@@ -295,13 +324,16 @@ nav {
   }
 }
 
-.proficientWithList {
+.proficientWithList,
+.exposedToList,
+.hobbiesList {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin: 5px;
-  justify-content: center;
-  gap: 2px;
-  padding: 0;
+  margin: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  padding: 5px;
 }
 
 .bioContainer {
@@ -462,13 +494,15 @@ nav {
     gap: 20px;
   }
 
-  .proficientWithContainer {
+  .proficientWithContainer,
+  .exposedToContainer {
     width: 40vh;
     height: auto;
     margin: 10px;
   }
 
-  .proficientWithList {
+  .proficientWithList,
+  .exposedToList {
     grid-template-columns: 1fr;
   }
 
