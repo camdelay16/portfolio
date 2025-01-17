@@ -369,6 +369,7 @@ nav {
   border-width: none;
   justify-self: center;
   align-self: center;
+  background-color: #fff; /* Add this line to make it not transparent */
 }
 
 @media (max-width: 768px) {
