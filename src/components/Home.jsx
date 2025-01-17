@@ -6,7 +6,7 @@ const Home = (props) => {
     <div className="homeInfoContainer">
       <div className="profileImgContainer">
         <img
-          src="src/assets/profilepic.svg"
+          src="shttps://imgur.com/a/ErnjAqc"
           alt="Cameron Delay"
           className="profileImg"
         />
