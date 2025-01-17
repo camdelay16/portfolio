@@ -1,4 +1,5 @@
 import SocialIcon from "./SocialIcon";
+import ProfilePic from "../assets/profilepic.svg";
 
 const Home = (props) => {
   const { info } = props;
@@ -6,7 +7,7 @@ const Home = (props) => {
     <div className="homeInfoContainer">
       <div className="profileImgContainer">
         <img
-          src="shttps://imgur.com/a/ErnjAqc"
+          src={ProfilePic}
           alt="Cameron Delay"
           className="profileImg"
         />

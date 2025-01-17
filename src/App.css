@@ -26,7 +26,7 @@ nav {
   right: 0;
   margin: 0 auto;
   z-index: 1000;
-  background: linear-gradient(to bottom, #002bff, #143bff, #2043f1, #2243e8);
+  background: linear-gradient(to bottom, #002bff, #143bff, #2043f1, #2d4be1);
   height: 60px;
   a {
     color: #00fbb8;
@@ -369,7 +369,7 @@ nav {
   border-width: none;
   justify-self: center;
   align-self: center;
-  background-color: #fff; /* Add this line to make it not transparent */
+  background-color: #fff;
 }
 
 @media (max-width: 768px) {
