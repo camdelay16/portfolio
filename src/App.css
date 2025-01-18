@@ -112,7 +112,7 @@ nav a:hover {
   padding: 20px;
   margin: 10px;
   border-radius: 20px;
-  width: 45vh;
+  width: 50vh;
   height: 300px;
   box-shadow: 5px 3px 3px rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(10px);
@@ -473,9 +473,13 @@ body {
 @media (max-width: 768px) {
   #root {
     padding: 1rem;
-    overflow-y: auto;
+    overflow-y: hidden;
     min-height: 100vh;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   nav {
@@ -484,7 +488,7 @@ body {
 
   .hamburger-menu {
     display: block;
-    position: absolute;
+    position: fixed;
     top: 15px;
     right: 20px;
     cursor: pointer;
@@ -557,150 +561,18 @@ body {
   .individualProjects {
     width: 90%;
     margin: 10px auto;
-  }
-
-  .projects {
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
-
-  .proficientWithContainer,
-  .exposedToContainer,
-  .hobbiesContainer {
-    width: 90%;
+    display: flex;
+    flex-direction: row;
     height: auto;
-    margin: 10px auto;
   }
 
-  .proficientWithList,
-  .exposedToList,
-  .hobbiesList {
-    grid-template-columns: 1fr;
-  }
-
-  .profileImgContainer {
-    width: 200px;
-    height: 200px;
-  }
-
-  .profileImg {
-    width: 150px;
-    height: 150px;
-  }
-
-  .pageTitle {
-    font-size: 1.5em;
-  }
-
-  .infoContainer {
+  .projectDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 10px;
-    text-align: center;
-  }
-
-  #home,
-  #aboutme,
-  #portfolio {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-
-  .content {
-    padding: 50px;
-  }
-}
-
-@media (max-width: 768px) {
-  #root {
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .reveal {
-    transition: opacity 0.75s ease-in-out, transform 0.75s ease-in-out;
-  }
-  nav {
-    height: auto;
-  }
-
-  .hamburger-menu {
-    display: block;
-    position: absolute;
-    top: 15px;
-    right: 20px;
-    cursor: pointer;
-    z-index: 1001;
-  }
-
-  .navHamburgerContainer {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
-
-  .hamburger-menu div {
-    width: 25px;
-    height: 3px;
-    background-color: #00fbb8;
-    margin: 5px 0;
-    transition: 0.4s;
-  }
-
-  .hamburger-menu.active {
-    position: fixed;
-  }
-
-  .hamburger-menu.active .bar1 {
-    transform: rotate(-45deg) translate(-5px, 6px);
-  }
-
-  .hamburger-menu.active .bar2 {
-    opacity: 0;
-  }
-
-  .hamburger-menu.active .bar3 {
-    transform: rotate(45deg) translate(-5px, -6px);
-  }
-
-  .navbar {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    width: 100%;
-    z-index: 1000;
-  }
-
-  .navbar .navCard {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    width: 90%;
-    background: linear-gradient(to bottom, #002bff, #143bff, #2043f1, #2243e8);
-    border-radius: 20px;
-    margin: 0 auto;
-    margin-top: 50px;
-    gap: 5px;
-    position: sticky;
-  }
-
-  .navbar a {
-    padding: 0.5rem;
-    text-decoration: none;
-    color: #00fbb8;
-  }
-
-  .navbar.active {
-    display: flex;
-  }
-
-  .individualProjects {
-    width: 90%;
-    margin: 10px auto;
+    padding: 10px;
   }
 
   .projects {
@@ -758,5 +630,13 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+
+  .content {
+    padding: 50px;
+  }
+
+  .reveal {
+    transition: opacity 0.75s ease-in-out, transform 0.75s ease-in-out;
   }
 }

@@ -10,7 +10,7 @@ const Portfolio = (props) => {
         className="individualProjects"
       >
         <h2>{project.title}</h2>
-        <div>
+        <div className="projectDescription">
           <p>
             <small>{project.about}</small>
           </p>
