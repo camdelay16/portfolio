@@ -9,7 +9,8 @@ body {
     margin: 0;
     padding: 2rem;
     text-align: center;
-    height: 100vh;
+    height: auto;
+    overflow-y: hidden;
   }
 
   .name-gradient {
