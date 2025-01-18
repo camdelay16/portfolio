@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, animateScroll as scroll } from "react-scroll";
 import React, { useState } from "react";
 
 const Navbar = () => {
@@ -25,22 +25,37 @@ const Navbar = () => {
         <div className={`navbar ${isActive ? "active" : ""}`}>
           <div className="navCard">
             <Link
-              to={"/"}
+              activeClass="active"
+              to="home"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
               onClick={toggleMenu}
             >
-              <h4>Home</h4>
+              <h4 className="navLink">Home</h4>
             </Link>
             <Link
-              to={"/aboutme"}
+              activeClass="active"
+              to="aboutme"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
               onClick={toggleMenu}
             >
-              <h4>About Me</h4>
+              <h4 className="navLink">About Me</h4>
             </Link>
             <Link
-              to={"/portfolio"}
+              activeClass="active"
+              to="portfolio"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
               onClick={toggleMenu}
             >
-              <h4>Portfolio</h4>
+              <h4 className="navLink">Portfolio</h4>
             </Link>
           </div>
         </div>

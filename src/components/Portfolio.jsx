@@ -1,3 +1,5 @@
+import Stars from "./Stars";
+
 const Portfolio = (props) => {
   const { info } = props;
 
@@ -34,14 +36,16 @@ const Portfolio = (props) => {
   ));
 
   return (
-    <div className="infoContainer">
-      <div className="pageTitleContainer">
-        <h1 className="pageTitle">Portfolio</h1>
+    <>
+      <div className="infoContainer">
+        <div className="pageTitleContainer">
+          <h1 className="pageTitle">Portfolio</h1>
+        </div>
+        <div className="projectsContainer">
+          <ul className="projects">{projects}</ul>
+        </div>
       </div>
-      <div className="projectsContainer">
-        <ul className="projects">{projects}</ul>
-      </div>
-    </div>
+    </>
   );
 };
 

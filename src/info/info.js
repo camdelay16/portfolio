@@ -64,11 +64,11 @@ export const info = {
   },
   hobbies: [
     {
-      label: "Art",
+      label: "Painting",
       emoji: "🎨",
     },
     {
-      label: "Playing with my dogs",
+      label: "My dogs",
       emoji: "🐶🐶",
     },
     {
