@@ -1,4 +1,7 @@
 import Stars from "./Stars";
+import ScrollReveal from "scrollreveal";
+import { useEffect } from "react";
+
 const AboutMe = (props) => {
   const { info } = props;
 
@@ -7,7 +10,7 @@ const AboutMe = (props) => {
       key={index}
       className="proficientWith"
     >
-      <li>
+      <li className="listItem">
         <i className={skill.icon} /> {skill.label}
       </li>
     </div>
@@ -18,7 +21,7 @@ const AboutMe = (props) => {
       key={index}
       className="exposedTo"
     >
-      <li>
+      <li className="listItem">
         <i className={skill.icon} /> {skill.label}
       </li>
     </div>
@@ -46,16 +49,16 @@ const AboutMe = (props) => {
           <p>{info.bio}</p>
         </div>
         <div className="aboutMeInfoContainer">
-          <div className="proficientWithContainer">
-            <h2>Proficient With:</h2>
+          <div className="reveal proficientWithContainer">
+            <h2 className="aboutTitle">Proficient With:</h2>
             <ul className="proficientWithList">{proficientWith}</ul>
           </div>
-          <div className="exposedToContainer">
-            <h2>Exposed To:</h2>
+          <div className="reveal exposedToContainer">
+            <h2 className="aboutTitle">Exposed To:</h2>
             <ul className="exposedToList">{exposedTo}</ul>
           </div>
-          <div className="hobbiesContainer">
-            <h2>Hobbies:</h2>
+          <div className="reveal hobbiesContainer">
+            <h2 className="aboutTitle">Hobbies:</h2>
             <ul className="hobbiesList">{hobbies}</ul>
           </div>
         </div>

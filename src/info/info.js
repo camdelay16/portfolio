@@ -72,7 +72,7 @@ export const info = {
       emoji: "🐶🐶",
     },
     {
-      label: "Reading the news",
+      label: "Current Events",
       emoji: "📰",
     },
     {
@@ -86,14 +86,16 @@ export const info = {
   ],
   portfolio: [
     {
-      title: "Project 1 - BundleUp",
+      number: "1",
+      title: "BundleUp",
       live: "https://bundle-up.netlify.app/",
       source: "https://github.com/camdelay16/BundleUp_React",
       about:
         "A full stack e-commerce site built with React and Express. This was a former group project that I have since taken over and revised a lot of broken code.",
     },
     {
-      title: "Project 2 - Accomplish",
+      number: "2",
+      title: "Accomplish",
       live: "https://accomplish-a23d7a73df7a.herokuapp.com/",
       source: "https://github.com/camdelay16/Accomplish/tree/main",
       about:

@@ -55,7 +55,7 @@ const Navbar = () => {
               duration={500}
               onClick={toggleMenu}
             >
-              <h4 className="navLink">Portfolio</h4>
+              <h4 className="navLink">Projects</h4>
             </Link>
           </div>
         </div>

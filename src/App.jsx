@@ -7,6 +7,7 @@ import Portfolio from "./components/Portfolio";
 import { info } from "./info/info";
 import ScrollReveal from "scrollreveal";
 import Stars from "./components/Stars";
+import { Link, Element, animateScroll as scroll } from "react-scroll";
 
 import "./App.css";
 import "./Star.css";
@@ -20,24 +21,28 @@ function App() {
       easing: "ease-in-out",
       origin: "bottom",
       reset: true,
+      mobile: true,
     });
 
-    sr.reveal(".reveal", {
-      beforeReveal: (el) => {
-        el.classList.add("is-visible");
-      },
-      beforeReset: (el) => {
-        el.classList.remove("is-visible");
-      },
-    });
+    sr.reveal(
+      ".reveal, .exposedTo, .proficientWith, .hobbies, .individualProjects, .bioContainer",
+      {
+        beforeReveal: (el) => {
+          el.classList.add("is-visible");
+        },
+        beforeReset: (el) => {
+          el.classList.remove("is-visible");
+        },
+      }
+    );
 
-    // Reveal the title as soon as it appears
     sr.reveal(".pageTitle", {
       distance: "20px",
       duration: 1000,
       easing: "ease-in-out",
       origin: "bottom",
       reset: true,
+      mobile: true,
     });
   }, []);
 

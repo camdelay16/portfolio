@@ -9,6 +9,7 @@ const Portfolio = (props) => {
         key={index}
         className="individualProjects"
       >
+        <h4>Project {project.number} -</h4>
         <h2>{project.title}</h2>
         <div className="projectDescription">
           <p>
@@ -39,7 +40,7 @@ const Portfolio = (props) => {
     <>
       <div className="infoContainer">
         <div className="pageTitleContainer">
-          <h1 className="pageTitle">Portfolio</h1>
+          <h1 className="pageTitle">Project Portfolio</h1>
         </div>
         <div className="projectsContainer">
           <ul className="projects">{projects}</ul>
