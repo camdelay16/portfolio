@@ -91,7 +91,7 @@ export const info = {
       live: "https://bundle-up.netlify.app/",
       source: "https://github.com/camdelay16/BundleUp_React",
       about:
-        "A full stack e-commerce site built with React and Express. This was a former group project that I have since taken over and revised a lot of broken code.",
+        "A full stack e-commerce site built with React and Express. This was originally a General Assembly group project that I have since taken over and revised a lot of broken code.",
     },
     {
       number: "2",
@@ -99,7 +99,15 @@ export const info = {
       live: "https://accomplish-a23d7a73df7a.herokuapp.com/",
       source: "https://github.com/camdelay16/Accomplish/tree/main",
       about:
-        "A full stack to-do list app built with Django. This was a solo project that I built to help a user keep track of their tasks/subtasks and organize them through lists. This was my first time using Django and I learned a lot from it.",
+        "A full stack to-do list app built with Django. This was my final solo project at General Assembly that I built to help a user keep track of their tasks/subtasks and organize them through lists.",
+    },
+    {
+      number: "3",
+      title: "Craftopia",
+      live: "https://craftopia.netlify.app/",
+      source: "https://github.com/camdelay16/Crafts_React",
+      about:
+        "A full stack crafts website where users can post instructions to crafts and add crafts other users post to their dashboards. Users can also post reviews on crafts. This was a solo project recreating my unit two project from General Assembly using React and Node.js.",
     },
   ],
 };
