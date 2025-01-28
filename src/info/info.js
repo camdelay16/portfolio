@@ -104,7 +104,7 @@ export const info = {
     {
       number: "3",
       title: "Craftopia",
-      live: "https://craftopia.netlify.app/",
+      live: "https://artsandcraftopia.netlify.app/",
       source: "https://github.com/camdelay16/Crafts_React",
       about:
         "A full stack crafts website where users can post instructions to crafts and add crafts other users post to their dashboards. Users can also post reviews on crafts. This was a solo project recreating my unit two project from General Assembly using React and Node.js.",
