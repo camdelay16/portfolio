@@ -49,14 +49,36 @@ function App() {
   return (
     <>
       <Navbar />
+      <br />
       <div className="content">
         <div
           className="reveal content"
           id="home"
         >
           <Home info={info} />
+          <br />
+          <br />
+          <br />
+          <div className="arrowContainer">
+            <i
+              className="fa-solid fa-arrow-down-long fa-bounce"
+              style={{
+                "--fa-bounce-start-scale-x": 1,
+                "--fa-bounce-start-scale-y": 1,
+                "--fa-bounce-jump-scale-x": 1,
+                "--fa-bounce-jump-scale-y": 1,
+                "--fa-bounce-land-scale-x": 1,
+                "--fa-bounce-land-scale-y": 1,
+                "--fa-bounce-rebound": 0,
+                fontSize: "1.5rem",
+                fontWeight: "bold",
+              }}
+            ></i>
+          </div>
         </div>
         <Stars />
+        <br />
+        <br />
         <div
           className="reveal content"
           id="aboutme"
