@@ -31,7 +31,7 @@ export const info = {
       label: "GitHub",
     },
     {
-      link: "http://www.linkedin.com/in/cameron-delay-5382888a",
+      link: "https://www.linkedin.com/in/camerondelay1/",
       icon: "fa fa-linkedin",
       label: "LinkedIn",
     },
