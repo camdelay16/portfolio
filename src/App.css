@@ -419,10 +419,23 @@ body {
 
   .bioContainer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 20px;
-    margin-bottom: 40px;
+    background: linear-gradient(
+      to bottom,
+      #1b3b3a 0%,
+      #234c4b 20%,
+      #24504f 40%,
+      #2e6361 80%,
+      #2e6665 60%,
+      #397a77 100%
+    );
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    p {
+      padding: 15px 60px;
+    }
   }
 
   .pageTitleContainer {
@@ -589,7 +602,7 @@ body {
     flex-direction: column;
     position: fixed;
     top: 0;
-    right: -250px; /* Start off the page */
+    right: -250px;
     width: 250px;
     height: 100%;
     background: linear-gradient(to bottom, #002bff, #143bff, #2043f1, #2243e8);

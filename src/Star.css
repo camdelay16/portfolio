@@ -10,6 +10,7 @@
     border-radius: 50%;
     filter: blur(0.5px);
     animation: animStar 50s linear infinite;
+    padding: 0;
   }
 
   #stars::after,
@@ -17,6 +18,7 @@
   #stars3::after {
     border-radius: 50%;
     filter: blur(0.5px);
+    padding: 0;
   }
 
   #stars {
