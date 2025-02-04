@@ -41,7 +41,7 @@ export const info = {
       label: "Connect",
     },
   ],
-  bio: "Hello! I'm Cameron. I enjoy long walks on the beach with my two dogs. I'm a Full Stack Developer with a passion for creating clean, user-friendly applications. I have experience with React, Express, Django, and MongoDB. I'm always looking to learn new technologies and expand my skill set.",
+  bio: "Hello! I'm Cameron. I'm a Full Stack Developer passionate about building clean, user-friendly applications.  When I'm not coding, you can find me enjoying long walks on the beach with my two dogs. My background includes a successful career in executive administration, where I honed skills in project management, problem-solving, and communication. Now, I'm channeling that experience and my passion for technology into creating impactful web applications. Proficient in JavaScript and Python, along with front-end and back-end technologies including React, Node.js, Express, HTML, CSS, Flask, and Django. Experienced with database technologies like MongoDB and PostgreSQL.  I'm also actively learning Rust and exploring its potential in blockchain development, an area I'm particularly interested in.  I'm eager to leverage these transferable skills and my growing technical expertise to contribute to a challenging and innovative web development team. Currently seeking opportunities as a Full-Stack Developer. University of Massachusetts, Amherst (Dual Degree: Communication & Psychology). I'm always looking to learn new technologies and expand my skill set.",
   skills: {
     proficientWith: [
       { icon: "fa-brands fa-js", label: "JavaScript" },
