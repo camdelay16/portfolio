@@ -56,18 +56,6 @@ function App() {
           id="home"
         >
           <Home info={info} />
-          <br />
-          <br />
-          <br />
-          <div className="arrowContainer">
-            <i
-              className="fa-solid fa-arrow-down-long"
-              style={{
-                fontSize: "1.5rem",
-                fontWeight: "bold",
-              }}
-            ></i>
-          </div>
         </div>
         <Stars />
         <br />
