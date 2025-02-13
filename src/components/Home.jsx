@@ -1,6 +1,7 @@
 import SocialIcon from "./SocialIcon";
 import ProfilePic from "../assets/profilepic.svg";
 import React, { useState, useEffect } from "react";
+import TypedComponent from "./TypedComponent";
 
 const Home = (props) => {
   const { info } = props;
@@ -9,6 +10,13 @@ const Home = (props) => {
   React.useEffect(() => {
     setFadeIn(true);
   }, []);
+
+  const strings = [
+    "a software engineer.",
+    "a web developer.",
+    "a problem solver.",
+    "a lifelong learner.",
+  ];
 
   return (
     <div className={`homeInfoContainer ${fadeIn ? "fade-in" : ""}`}>
@@ -22,9 +30,22 @@ const Home = (props) => {
       <h1>
         Welcome! I'm <span className="name-gradient">Cameron</span>
       </h1>
-      <h2>I'm a software engineer. </h2>
+      <h2>
+        I'm <TypedComponent strings={strings} />
+      </h2>
       <div className="contactLinks">
         <SocialIcon info={info} />
+      </div>
+      <div>
+        <button className="projectButtons">
+          <a
+            href=""
+            download
+            className="btn"
+          >
+            Download My Resume
+          </a>
+        </button>
       </div>
     </div>
   );

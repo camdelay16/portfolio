@@ -61,15 +61,8 @@ function App() {
           <br />
           <div className="arrowContainer">
             <i
-              className="fa-solid fa-arrow-down-long fa-bounce"
+              className="fa-solid fa-arrow-down-long"
               style={{
-                "--fa-bounce-start-scale-x": 1,
-                "--fa-bounce-start-scale-y": 1,
-                "--fa-bounce-jump-scale-x": 1,
-                "--fa-bounce-jump-scale-y": 1,
-                "--fa-bounce-land-scale-x": 1,
-                "--fa-bounce-land-scale-y": 1,
-                "--fa-bounce-rebound": 0,
                 fontSize: "1.5rem",
                 fontWeight: "bold",
               }}

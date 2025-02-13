@@ -54,12 +54,16 @@ export const info = {
       { icon: "fa-solid fa-code", label: "Express" },
       { icon: "fa-brands fa-node-js", label: "Node.js" },
       { icon: "fa-solid fa-code", label: "MongoDB" },
+      { icon: "fa-solid fa-code", label: "Font Awesome" },
+      { icon: "fa-solid fa-code", label: "Bootstrap" },
     ],
     exposedTo: [
       { icon: "fa-brands fa-python", label: "Python" },
       { icon: "fa-solid fa-code", label: "PostgreSQL" },
       { icon: "fa-solid fa-code", label: "SQL" },
       { icon: "fa-solid fa-code", label: "Heroku" },
+      { icon: "fa-solid fa-code", label: "Netlify" },
+      { icon: "fa-solid fa-code", label: "Rust" },
     ],
   },
   hobbies: [
