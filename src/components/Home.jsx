@@ -40,7 +40,7 @@ const Home = (props) => {
       <div>
         <button className="projectButtons">
           <a
-            href=""
+            href="/Cameron Delay - Resume.pdf"
             download
             className="btn"
           >
