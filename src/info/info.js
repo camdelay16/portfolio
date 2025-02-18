@@ -95,7 +95,9 @@ export const info = {
       live: "https://bundle-up.netlify.app/",
       source: "https://github.com/camdelay16/BundleUp_React",
       about:
-        "A full stack e-commerce site built with React and Express. This was originally a General Assembly group project that I have since taken over and revised a lot of broken code.",
+        "This project, originally developed as my Unit 3 project at General Assembly, is a full-stack web application designed to connect users with local events and deals.  I collaborated with a team of four developers on the initial version, which allowed users to post events and deals in their area, and RSVP to events or claim deals. Since then, I've significantly enhanced the application by refactoring and expanding both the front-end and back-end code, creating a more cohesive and feature-rich user experience.  Built using the MERN stack (MongoDB, Express, React, and Node.js), this project demonstrates proficiency in building full-stack applications with complete CRUD (Create, Read, Update, Delete) operations and RESTful API design.  Key technologies used include React, JavaScript, Bootstrap, and CSS3.",
+      about2:
+        "This full-stack web application connects users with local events and deals. Initially developed as a team project at General Assembly, I significantly enhanced the application by refactoring and expanding both the front-end and back-end, creating a more cohesive user experience. Built with the MERN stack (MongoDB, Express, React, Node.js), it features complete CRUD operations and RESTful API design. Key technologies: React, JavaScript, Bootstrap, CSS3.",
     },
     {
       number: "2",
@@ -103,15 +105,18 @@ export const info = {
       live: "https://accomplish-a23d7a73df7a.herokuapp.com/",
       source: "https://github.com/camdelay16/Accomplish/tree/main",
       about:
-        "A full stack to-do list app built with Django. This was my final solo project at General Assembly that I built to help a user keep track of their tasks/subtasks and organize them through lists.",
+        "This was my final solo project at General Assembly, a full-stack to-do list application designed to help users effectively track, categorize, and manage their tasks. Developed within one week, this project demonstrates proficiency in building full-stack applications with complete CRUD (Create, Read, Update, Delete) operations and RESTful API design.  The back-end API was built using Django and PostgreSQL, ensuring reliable data access, storage, and manipulation.  The front-end utilizes JavaScript, Bootstrap, and CSS3 for a responsive and user-friendly interface.  I also leveraged Canva for some design elements.  This project showcases my ability to independently develop and deploy a complete web application.",
+      about2:
+        "My final solo project at General Assembly, this full-stack to-do list application helps users track, categorize, and manage tasks. Developed in one week, it demonstrates proficiency in full-stack development with CRUD operations and RESTful API design. The back-end uses Django and PostgreSQL for reliable data management, while the front-end utilizes JavaScript, Bootstrap, and CSS3 for a responsive interface. Key technologies: JavaScript, Bootstrap, Python, Django, PostgreSQL, CSS3.",
     },
     {
       number: "3",
       title: "Craftopia",
       live: "https://artsandcraftopia.netlify.app/",
       source: "https://github.com/camdelay16/Crafts_React",
-      about:
-        "A full stack crafts website where users can post instructions to crafts and add crafts other users post to their dashboards. Users can also post reviews on crafts. This was a solo project recreating my unit two project from General Assembly using React and Node.js.",
+      about: `This project is a React-based recreation of my Unit 2 project from General Assembly, a full-stack web application designed to foster collaboration among craft enthusiasts.  Users can share their craft directions, browse projects posted by others, and leave reviews.  A "favorites" feature allows users to save crafts to their personal dashboards for easy access.  Built using the MERN stack (MongoDB, Express.js, React, and Node.js), this application demonstrates proficiency in full-stack development, implementing complete CRUD (Create, Read, Update, Delete) operations and RESTful API design. Key technologies used include React, JavaScript, CSS3, MongoDB, Express.js, Node.js, and Canva for design elements.`,
+      about2:
+        "This React-based web application fosters collaboration among craft enthusiasts. Users can share craft directions, browse projects, leave reviews, and save favorites to their dashboards.  Built with the MERN stack (MongoDB, Express.js, React, Node.js), it features full CRUD operations and RESTful API design. Key technologies: React, JavaScript, CSS3, MongoDB, Express.js, Node.js.",
     },
   ],
 };

@@ -38,7 +38,7 @@ const Home = (props) => {
       </div>
       <br />
       <div>
-        <button className="projectButtons">
+        <button className="projectButtons resume">
           <a
             href="/Cameron Delay - Resume.pdf"
             download
