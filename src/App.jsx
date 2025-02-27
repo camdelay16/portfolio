@@ -58,8 +58,6 @@ function App() {
           <Home info={info} />
         </div>
         <Stars />
-        <br />
-        <br />
         <div
           className="reveal content"
           id="aboutme"

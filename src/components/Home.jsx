@@ -36,7 +36,6 @@ const Home = (props) => {
       <div className="contactLinks">
         <SocialIcon info={info} />
       </div>
-      <br />
       <div>
         <button className="projectButtons resume">
           <a

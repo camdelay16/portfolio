@@ -201,7 +201,7 @@ body {
 
   #aboutme,
   #portfolio {
-    margin: 40px 0;
+    margin-top: 30px;
   }
 
   #home {
@@ -1003,7 +1003,7 @@ body {
 
   #aboutme,
   #portfolio {
-    margin-top: 50px;
+    margin-top: 30px;
   }
 
   .reveal {
@@ -1013,5 +1013,15 @@ body {
   footer {
     display: flex;
     justify-content: center;
+  }
+
+  .contactLinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .individualLinks {
+    margin: 10px;
   }
 }
