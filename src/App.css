@@ -156,7 +156,7 @@ body {
     margin: 10px;
     border-radius: 20px;
     width: 50vh;
-    height: 50vh;
+    height: 65vh;
     box-shadow: 5px 3px 3px rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -298,9 +298,11 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 30px;
+    justify-content: center;
   }
 
   .projects li {
@@ -310,6 +312,11 @@ body {
 
   .projectsContainer {
     margin: 30px;
+  }
+
+  .projectDescription {
+    align-items: center;
+    margin-bottom: 20px;
   }
 
   .aboutMeInfoContainer {
@@ -526,7 +533,6 @@ body {
     background-color: #fff;
   }
 
-  /* Add this rule to prevent horizontal overflow */
   body {
     overflow-x: hidden;
     overflow-y: auto;
